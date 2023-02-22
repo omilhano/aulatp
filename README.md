@@ -1,2 +1,2 @@
 # aulatp
-Primeira Aula Pratica de WEb
+Primeira Aula Pratica de Web
