@@ -3,6 +3,29 @@
     <!DOCTYPE html>
     <html lang="en">
     <head>
+        <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th {
+                border: 1px solid #dddddd;
+                text-align: center;
+                padding: 8px;
+            }
+
+            td {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+</style>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,5 +43,38 @@
             <li><a href="../html/student4.html" >Rafael Ribeiro</a></li>
             <li><a href="../html/form.html">Form</a></li>
         </ul>
+        <table>
+        <tr>
+            <td rowspan="2"></td>
+            <th colspan="2">August Temperature (C)</th>
+            <th colspan="2">January Temperature (C)</th>
+        </tr>
+        <tr>
+            <th>Min</th>
+            <th>Max</th>
+            <th>Min</th>
+            <th>Max</th>
+        </tr>
+        <tr>
+            <th>Lisbon</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+        </tr>
+        <tr>
+            <th>Paris</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+        </tr>
+        <tr>
+            <th>London</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+        </tr>
     </body>
     </html>
